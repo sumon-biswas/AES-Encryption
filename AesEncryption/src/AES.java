@@ -60,6 +60,11 @@ public class AES {
         }
         return null;
     }
+	
+    public void printf(String s)
+    {
+	System.out.println(s);
+    }
     
     public static void main(String[] args)
     {
